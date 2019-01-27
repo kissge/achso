@@ -5,7 +5,7 @@ from setuptools import setup
 
 setup(
     name='achso',
-    version='0.0.1',
+    version='0.0.2',
     author='Yuto Kisuge',
     author_email='mail@yo.eki.do',
     description='AtCoder Helper Suite',
@@ -13,7 +13,7 @@ setup(
     keywords='AtCoder',
     url='https://github.com/kissge/achso',
     packages=['achso', 'achso/commands'],
-    install_requires=['cement', 'requests', 'lxml', 'cssselect'],
+    install_requires=['cement<3', 'requests', 'lxml', 'cssselect'],
     long_description='Command Line Utilities for AtCoder',
     classifiers=[
         'Development Status :: 1 - Planning',
